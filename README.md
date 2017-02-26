@@ -16,3 +16,6 @@ There a different approaches to render RGB-Mask passes for external compositing 
 
 ### Notes
 Every geometry without Pass Index (default is 0) will be black
+
+## Requirement
+Blender 2.78
