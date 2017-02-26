@@ -4,6 +4,9 @@ RGB-Masking Shader for Blender as material overwrite
 ## Description
 There a different approaches to render RGB-Mask passes for external compositing in Photoshop or any other compositing software. This is a approach with built in blender tools.
 
+## Screenshot
+![Alt text](screenshot.png?raw=true "Screenshot of Blender")
+
 ## Howto
 1. Download "RGB-Mask-Shader.blend" from the repository
 2. Append the Material "RGB-Mask-Shader" to your scene file
