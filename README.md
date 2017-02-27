@@ -2,7 +2,10 @@
 RGB-Masking Shader for Blender as material overwrite
 
 ## Description
-There a different approaches to render RGB-Mask passes for external compositing in Photoshop or any other compositing software. This is a approach with built in blender tools.
+There a different approaches to render RGB-Mask passes for external compositing in Photoshop or any other compositing software. This is a approach with built in Blender tools by using a shader and the pass index in Blender.
+Future there will be a little script with shows the assigned channel of all objects in scene.
+
+THE SCRIPT IS WORK IN PROGRESS AND DOES NOTHING RIGHT AT THE MOMENT. ONLY THE SHADER WORKS.
 
 ## Screenshot
 ![Alt text](screenshot.png?raw=true "Screenshot of Blender")
@@ -22,3 +25,7 @@ Every geometry without Pass Index (default is 0) will be black
 
 ## Requirement
 Blender 2.76
+
+## Future plans
+1. Adding a overview to the Blender interface to see which channel is assigned objects in scene
+2. Adding the shader to a scene by using a button in Blender
