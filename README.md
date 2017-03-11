@@ -15,7 +15,7 @@ THE SCRIPT IS WORK IN PROGRESS AND DOES NOTHING RIGHT AT THE MOMENT. ONLY THE SH
 2. Append the Material "RGB-Mask-Shader" to your scene file
 3. Apply this shader to a hidden geometry
 4. Create a second render layer in "Render layers" panel called "Mask-Layer"
-5. Apply the "RGB-Mask-Shader" to the material overwrite
+5. Apply the "RGB-Mask-Shader" to the material overwrite and set samples for this layer to 100 samples
 6. Select the geometry you want to be red/green/blue/black in the "Mask-Layer"
 7. Go to the "Object panel".
 8. Under "Relations" you will find a "Pass Index" -> set it to 1 (R), 2 (G), 3(B) or 0 (black)
